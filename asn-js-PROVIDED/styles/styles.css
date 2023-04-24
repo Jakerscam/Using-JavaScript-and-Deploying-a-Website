@@ -1,0 +1,224 @@
+
+body {
+    width: 950px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+  
+  
+  h1 {
+    font-size: 48px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+  
+  .large-text {
+    font-size: 24px;
+  }
+  
+  .fake-button {
+    background-color: #E5AF42;
+    text-align: center;
+    line-height: 3;
+    border: 1px solid black;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  main a:hover, footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .fake-button:hover, .blue-hover:hover {
+    text-decoration: underline;
+    background-color: #4278e5;
+    color: white;
+    cursor: pointer;
+  }
+  
+ 
+  header, footer {
+    background-color: #E5AF42;
+  }
+  
+  header {
+    padding: 15px;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  header img {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+  }
+  
+  header h1 {
+    display: inline-block;
+    margin-left: 25px;
+}
+  
+  main {
+    margin: 25px 0;
+  }
+  
+  footer {
+    background-color: #E5AF42;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0; 
+}
+
+footer p {
+    margin: 5px 0;
+}
+  
+  
+  .index .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .index .about-us {
+    flex: 1;
+    margin-right: 25px;
+  }
+  
+  .index img {
+    width: 300px;
+    margin-bottom: 50px;
+  }
+  
+  .index h2 {
+    line-height: 36px;
+  }
+  
+  .index p {
+    margin-bottom: 12px;
+  }
+  
+  .index .fake-button {
+    width: 250px;
+    margin: 0 auto 150px;
+  }
+  
+ 
+  .contact {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact .flex {
+    display: flex;
+    justify-content: space-between;
+    width: 474px;
+    margin-bottom: 24px;
+  }
+  
+  .contact label {
+    width: 150px;
+    text-align: right;
+  }
+  
+  .contact input, .contact textarea {
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid black;
+  }
+  
+  .contact textarea {
+    height: 150px;
+  }
+  
+  #submit-button {
+    width: 300px;
+    line-height: 24px;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto 24px;
+  }
+  
+  main#contact-page.contact {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button#submit-button.fake-button.blue-hover {
+    margin-left: 171px;
+  }
+  .booking-page {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.booking-page * {
+    font-size: 18px;
+}
+.booking-page h2 {
+    font-size: 28px; 
+}
+.day-selector {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 12px;
+
+}
+
+.day-selector li {
+    display: inline-block;
+    width: 60px;
+    margin-right: 20px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.day-selector li:last-child {
+    margin-right: 0;
+}
+
+.small-button {
+    display: inline-block;
+    padding: 0 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.top-margin {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.fake-button[id="clear-button"] {
+    width: 200px;
+}
+#clear-button {
+    margin: 24px auto ;
+    display: block;
+}
+
+.clicked {
+    background-color: #E5AF42;
+}
+  
